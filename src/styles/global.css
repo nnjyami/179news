@@ -26,8 +26,8 @@
   --device-font: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
     "Hiragino Sans", Meiryo, sans-serif;
 
-  --leftEdge: 16px;
-  --rightEdge: 16px;
+  --leftEdge: 12px;
+  --rightEdge: 12px;
   --gridColumn: 10;
   --rowGrid: 24px;
   --gridGutter: 16px;
@@ -165,14 +165,15 @@ hr {
 /* ------------------------------------------------------ */
 
 .newsArticles {
-  font-size: 12px;
+  font-size: 13px;
+  letter-spacing: -0.01em;
   writing-mode: vertical-rl;
   font-feature-settings: "vpal";
   text-combine-upright: digits 2;
   -webkit-text-combine: digits 2;
 
   width: 100%;
-  min-height: calc((15em + var(--rowGrid)) * 8);
+  min-height: calc((16em + var(--rowGrid)) * 10);
 
   column-count: auto;
   column-width: 16em;
@@ -197,13 +198,13 @@ hr {
   margin: 0 0 0 0.5em;
 }
 .newsArticles h3 {
-  font-size: 11px;
+  font-size: 12px;
   line-height: 1.5;
 
   margin: 0 1.25em 0 0.75em;
 }
 .newsArticles p {
-  line-height: 1.75;
+  line-height: 1.8;
   margin: 0 0 0 0em;
   text-align: justify;
 }
