@@ -27,7 +27,7 @@
     "Hiragino Sans", Meiryo, sans-serif;
 
   --leftEdge: 8px;
-  --rightEdge: 8px;
+  --rightEdge: 16px;
   --gridColumn: 10;
   --rowGrid: 32px;
   --gridGutter: 16px;
@@ -172,15 +172,26 @@ hr {
   width: 100%;
 
   column-count: auto;
-  column-width: 10rem;
+  column-width: 16em;
   column-fill: balance;
   column-gap: var(--rowGrid);
 }
 
+.newsArticles h2,
 .newsArticles h3 {
   font-family: var(--device-font);
   font-weight: bold;
+}
+.newsArticles h2 {
   font-size: 13px;
+  line-height: 1.5;
+
+  height: 13em;
+  margin: 0 0 0 0.75em;
+}
+.newsArticles h3 {
+  font-size: 11px;
+  line-height: 1.5;
 
   margin: 0 0 0 0.75em;
 }
