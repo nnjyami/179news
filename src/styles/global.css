@@ -192,10 +192,10 @@ hr {
   -webkit-text-combine: digits 2;
 
   width: 100%;
-  min-height: calc((16em + var(--rowGrid)) * 11);
+  min-height: calc((15em + var(--rowGrid)) * 11);
 
   column-count: auto;
-  column-width: 16em;
+  column-width: 15em;
   column-fill: auto;
   column-gap: var(--rowGrid);
   column-rule: thin solid rgb(var(--gray-light));
@@ -216,7 +216,6 @@ hr {
   }
 }
 .paperHeader_copy {
-  display: none;
   font-size: 11px;
   writing-mode: horizontal-tb;
   display: flex;
@@ -224,6 +223,8 @@ hr {
   justify-content: center;
   margin: 0;
   padding: 0;
+
+  display: none;
 }
 
 .newsArticles h2,
