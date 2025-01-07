@@ -170,6 +170,7 @@ hr {
   font-feature-settings: "vpal";
 
   width: 100%;
+  min-height: calc((13em + var(--rowGrid)) * 7);
 
   column-count: auto;
   column-width: 13em;
