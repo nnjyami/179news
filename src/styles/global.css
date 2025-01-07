@@ -9,7 +9,7 @@
   --accent-dark: #000d8a;
 
   --black: 51, 50, 49;
-  --gray: 96, 115, 159;
+  --gray: 145, 144, 143;
   --gray-light: 225, 220, 217;
   --gray-dark: 34, 41, 57;
   --gray-gradient: rgba(var(--gray-light), 50%), #fff;
@@ -172,7 +172,7 @@ hr {
   -webkit-text-combine: digits 2;
 
   width: 100%;
-  min-height: calc((15em + var(--rowGrid)) * 7);
+  min-height: calc((15em + var(--rowGrid)) * 8);
 
   column-count: auto;
   column-width: 16em;
@@ -190,20 +190,41 @@ hr {
   font-size: 13px;
   line-height: 1.5;
 
-  height: 14em;
+  height: 16em;
+  margin: 0 2em 0 0.5em;
+}
+.newsArticles h2:first-child {
   margin: 0 0 0 0.5em;
 }
 .newsArticles h3 {
   font-size: 11px;
   line-height: 1.5;
 
-  margin: 0 0 0 0.75em;
+  margin: 0 1.25em 0 0.75em;
 }
 .newsArticles p {
-  line-height: 1.7;
-  margin: 0 0 0 2.2em;
+  line-height: 1.75;
+  margin: 0 0 0 0em;
   text-align: justify;
 }
 .newsArticles p + h3 {
-  margin-right: -1.5em;
+  margin-right: 1em;
+}
+.article_quoteLink {
+  display: inline-block;
+  font-size: 9px;
+  line-height: 1.4;
+  color: rgb(var(--gray));
+  text-orientation: sideways;
+  text-decoration: none;
+  padding-top: 2.68em;
+  margin-right: 0.5em;
+  position: relative;
+}
+.article_quoteLink::before {
+  content: "––––";
+  letter-spacing: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
 }

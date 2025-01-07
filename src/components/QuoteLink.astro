@@ -1,0 +1,11 @@
+---
+import type { HTMLAttributes } from 'astro/types';
+
+type Props = HTMLAttributes<'a'>;
+
+const { link, text, class: className, ...props } = Astro.props;
+---
+
+<a class="article_quoteLink" href={link} {...props}>
+  {text}
+</a>
