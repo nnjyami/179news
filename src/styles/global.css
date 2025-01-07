@@ -26,7 +26,7 @@
   --device-font: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
     "Hiragino Sans", Meiryo, sans-serif;
 
-  --leftEdge: 8px;
+  --leftEdge: 16px;
   --rightEdge: 16px;
   --gridColumn: 10;
   --rowGrid: 32px;
@@ -165,16 +165,17 @@ hr {
 /* ------------------------------------------------------ */
 
 .newsArticles {
-  font-size: 11px;
+  font-size: 12px;
   writing-mode: vertical-rl;
   font-feature-settings: "vpal";
 
   width: 100%;
 
   column-count: auto;
-  column-width: 16em;
+  column-width: 15em;
   column-fill: balance;
   column-gap: var(--rowGrid);
+  column-rule: solid rgb(var(--gray-light));
 }
 
 .newsArticles h2,
