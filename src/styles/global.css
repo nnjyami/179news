@@ -176,7 +176,7 @@ hr {
   justify-content: space-between;
   border-bottom: 1px solid rgb(var(--gray-light));
   margin: 0 0 8px;
-  padding: 4px 0 2px;
+  padding: 4px 0 3px;
 }
 .articleHeader li {
   margin: 0;
@@ -223,7 +223,7 @@ hr {
   margin: 0 1.25em 0 0.75em;
 }
 .newsArticles p {
-  line-height: 1.7;
+  line-height: 1.85;
   margin: 0 0 0 0em;
   text-align: justify;
 }
