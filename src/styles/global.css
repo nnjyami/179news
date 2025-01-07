@@ -168,6 +168,7 @@ hr {
   font-size: 12px;
   writing-mode: vertical-rl;
   font-feature-settings: "vpal";
+  text-combine-upright: digits;
 
   width: 100%;
   min-height: calc((13em + var(--rowGrid)) * 7);
