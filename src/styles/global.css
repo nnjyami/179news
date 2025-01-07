@@ -19,8 +19,13 @@
 
   --background-color: #f6f4f3;
 
-  --base-font: "fot-tsukumin-pr6n", sans-serif;
+  /*
+	--base-font: "fot-tsukumin-pr6n", sans-serif;
   --base-font-weight: 300;
+  --base-font-style: normal;
+	*/
+  --base-font: "zen-old-mincho", sans-serif;
+  --base-font-weight: 400;
   --base-font-style: normal;
 
   --device-font: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
@@ -166,11 +171,11 @@ hr {
 .articleHeader {
   list-style: none;
   display: flex;
-  font-size: 12px;
+  font-size: 11px;
   justify-content: space-between;
   border-bottom: 1px solid rgb(var(--gray-light));
   margin: 0 0 8px;
-  padding: 4px 0;
+  padding: 4px 0 2px;
 }
 .articleHeader li {
   margin: 0;
