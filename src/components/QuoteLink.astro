@@ -6,6 +6,6 @@ type Props = HTMLAttributes<'a'>;
 const { link, text, class: className, ...props } = Astro.props;
 ---
 
-<a class="article_quoteLink" href={link} {...props}>
+<a class="article_quoteLink" href={link} target="_blank" {...props}>
   {text}
 </a>
