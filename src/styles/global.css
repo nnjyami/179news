@@ -29,7 +29,7 @@
   --leftEdge: 16px;
   --rightEdge: 16px;
   --gridColumn: 10;
-  --rowGrid: 32px;
+  --rowGrid: 24px;
   --gridGutter: 16px;
   --redGrid: calc(
     (
@@ -172,8 +172,8 @@ hr {
   width: 100%;
 
   column-count: auto;
-  column-width: 14em;
-  column-fill: balance;
+  column-width: 13em;
+  column-fill: アウト;
   column-gap: var(--rowGrid);
   column-rule: thin solid rgb(var(--gray-light));
 }
