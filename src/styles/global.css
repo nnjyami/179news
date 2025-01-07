@@ -26,8 +26,8 @@
   --device-font: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
     "Hiragino Sans", Meiryo, sans-serif;
 
-  --leftEdge: 12px;
-  --rightEdge: 12px;
+  --leftEdge: 8px;
+  --rightEdge: 8px;
   --gridColumn: 10;
   --rowGrid: 24px;
   --gridGutter: 16px;
@@ -62,8 +62,7 @@ main {
   width: 100%;
   box-sizing: border-box;
   margin: auto;
-  padding: calc(var(--rowGrid) * 1) var(--rightEdge) calc(var(--rowGrid) * 2)
-    var(--leftEdge);
+  padding: 0 var(--rightEdge) calc(var(--rowGrid) * 2) var(--leftEdge);
 }
 h1,
 h2,
@@ -164,6 +163,19 @@ hr {
 
 /* ------------------------------------------------------ */
 
+.articleHeader {
+  list-style: none;
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(var(--gray-light));
+  margin: 0 0 8px;
+  padding: 4px 0;
+}
+.articleHeader li {
+  margin: 0;
+  padding: 0;
+}
 .newsArticles {
   font-size: 13px;
   letter-spacing: -0.01em;
@@ -188,7 +200,8 @@ hr {
   font-weight: bold;
 }
 .newsArticles h2 {
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 800;
   line-height: 1.5;
 
   height: 16em;
