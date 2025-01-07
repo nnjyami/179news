@@ -5,6 +5,8 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import FormattedDate from '../components/FormattedDate.astro';
 
+import PaperTitle from '../components/PaperTitle.astro';
+
 type Props = CollectionEntry<'blog'>['data'];
 
 const { title, pubDate, updatedDate, heroImage, number } = Astro.props;
@@ -18,28 +20,13 @@ const { title, pubDate, updatedDate, heroImage, number } = Astro.props;
 	<body>
 		<main>
 			<article>
-				<div class="title">
-					{
-						/*
-					<div class="date">
-						<FormattedDate date={pubDate} />
-						{
-							updatedDate && (
-								<div class="last-updated-on">
-									Last updated on <FormattedDate date={updatedDate} />
-								</div>
-							)
-						}
-					</div>
-					*/
-					}
-				</div>
 				<ul class="articleHeader">
 					<li>第<span class="num">{number}</span>号</li>
 					<li><FormattedDate date={pubDate} /></li>
 					<li>《日刊》</li>
 				</ul>
 				<section class="newsArticles">
+					<PaperTitle />
 					<slot />
 				</section>
 			</article>
