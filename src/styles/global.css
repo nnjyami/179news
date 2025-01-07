@@ -24,7 +24,7 @@
   --base-font-weight: 300;
   --base-font-style: normal;
 	*/
-  --base-font: "zen-old-mincho", sans-serif;
+  --base-font: "source-han-serif-jp-variable", sans-serif;
   --base-font-weight: 400;
   --base-font-style: normal;
 
@@ -51,6 +51,7 @@
 body {
   font-family: var(--base-font);
   font-weight: var(--base-font-weight);
+  font-variation-settings: "wght" 500;
   font-style: var(--base-font-style);
 
   margin: 0;
@@ -209,7 +210,7 @@ hr {
   font-weight: 800;
   line-height: 1.5;
 
-  height: 16em;
+  height: 14em;
   margin: 0 2em 0 0.5em;
 }
 .newsArticles h2:first-child {
