@@ -190,7 +190,7 @@ hr {
   font-size: 13px;
   line-height: 1.5;
 
-  height: 13em;
+  height: 14em;
   margin: 0 0 0 0.5em;
 }
 .newsArticles h3 {
@@ -201,7 +201,7 @@ hr {
 }
 .newsArticles p {
   line-height: 1.7;
-  margin: 0 0 0 2.8em;
+  margin: 0 0 0 2.2em;
   text-align: justify;
 }
 .newsArticles p + h3 {
