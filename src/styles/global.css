@@ -175,7 +175,7 @@ hr {
   min-height: calc((15em + var(--rowGrid)) * 7);
 
   column-count: auto;
-  column-width: 15em;
+  column-width: 16em;
   column-fill: auto;
   column-gap: var(--rowGrid);
   column-rule: thin solid rgb(var(--gray-light));
@@ -191,7 +191,7 @@ hr {
   line-height: 1.5;
 
   height: 13em;
-  margin: 0 0 0 0.75em;
+  margin: 0 0 0 0.5em;
 }
 .newsArticles h3 {
   font-size: 11px;
@@ -200,7 +200,7 @@ hr {
   margin: 0 0 0 0.75em;
 }
 .newsArticles p {
-  line-height: 1.8;
+  line-height: 1.7;
   margin: 0 0 0 2.8em;
   text-align: justify;
 }
