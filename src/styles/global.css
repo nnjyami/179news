@@ -232,11 +232,9 @@ hr {
   font-weight: bold;
 }
 .newsArticles h2 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 800;
   line-height: 1.5;
-
-  height: 14em;
   margin: 0 2em 0 0.5em;
 }
 .newsArticles h2:first-child {
