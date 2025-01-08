@@ -175,8 +175,8 @@ hr {
   font-size: 11px;
   justify-content: space-between;
   border-bottom: 1px solid rgb(var(--gray-light));
-  margin: 0 0 12px;
-  padding: 0 0 6px;
+  margin: 0 0 10px;
+  padding: 0 0 4px;
 }
 .articleHeader li {
   margin: 0;
@@ -260,13 +260,13 @@ hr {
 }
 .article_quoteLink {
   display: inline-block;
-  font-size: 9px;
+  font-size: 8px;
   line-height: 1.4;
   color: rgb(var(--black));
   text-orientation: sideways;
   text-decoration: none;
-  padding-top: 2.68em;
-  margin-top: 1.5em;
+  padding-top: 2.65em;
+  margin-top: 1.25em;
   margin-right: 0.25em;
   position: relative;
 }
