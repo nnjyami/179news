@@ -239,10 +239,14 @@ hr {
   font-size: 16px;
   font-weight: 900;
   line-height: 1.3;
-  margin: 0 0.6em 0 0.25em;
+  margin: 0 0.4em 0 0.25em;
+  padding-right: 0.55em;
+  border-right: 1px solid rgb(var(--gray-light));
 }
 .newsArticles h2:first-child {
   margin: 0 0 0 0.25em;
+  padding-right: 0em;
+  border-right: none;
 }
 .newsArticles h3 {
   font-size: 12px;
