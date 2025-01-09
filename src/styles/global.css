@@ -208,6 +208,9 @@ footer {
   column-fill: auto;
   column-gap: var(--rowGrid);
   column-rule: thin solid rgb(var(--gray-light));
+
+  line-break: normal;
+  hanging-punctuation: allow-end;
 }
 
 .newsArticles em {
