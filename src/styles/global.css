@@ -212,8 +212,8 @@ footer {
 
 .newsArticles em {
   font-style: normal;
-  text-combine-upright: digits 3;
-  -webkit-text-combine: digits 3;
+  text-combine-upright: all;
+  -webkit-text-combine: all;
 }
 
 .paperHeader {
