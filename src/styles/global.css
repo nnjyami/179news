@@ -48,6 +48,9 @@
   }
 }
 
+html {
+  text-size-adjust: none;
+}
 body {
   font-family: var(--base-font);
   font-weight: var(--base-font-weight);
