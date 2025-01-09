@@ -198,6 +198,7 @@ footer {
   writing-mode: vertical-rl;
   font-feature-settings: "vpal";
   text-combine-upright: digits 2;
+  -webkit-text-combine: all;
   -webkit-text-combine: digits 2;
 
   width: 100%;
