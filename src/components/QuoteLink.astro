@@ -3,9 +3,20 @@ import type { HTMLAttributes } from 'astro/types';
 
 type Props = HTMLAttributes<'a'>;
 
-const { link, text, class: className, ...props } = Astro.props;
+const { link, text, site = "", class: className, ...props } = Astro.props;
 ---
 
 <a class="article_quoteLink" href={link} target="_blank" {...props}>
-  {text}
+  {
+    () => {
+      if (site){
+        return (
+          <span class="article_quoteSiteName">{site}</span><br />
+          <span>『{text}』</span>
+        )
+      } else {
+        return {text}
+      }
+    }
+  }
 </a>
