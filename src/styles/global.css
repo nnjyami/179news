@@ -197,8 +197,7 @@ footer {
   letter-spacing: -0.01em;
   writing-mode: vertical-rl;
   font-feature-settings: "vpal";
-  text-combine-upright: digits 2;
-  -webkit-text-combine: all;
+  text-combine-upright: digits 3;
   -webkit-text-combine: digits 2;
 
   width: 100%;
@@ -209,6 +208,12 @@ footer {
   column-fill: auto;
   column-gap: var(--rowGrid);
   column-rule: thin solid rgb(var(--gray-light));
+}
+
+.newsArticles em {
+  font-style: normal;
+  text-combine-upright: digits 3;
+  -webkit-text-combine: digits 3;
 }
 
 .paperHeader {
