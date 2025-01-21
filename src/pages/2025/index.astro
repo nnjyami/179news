@@ -1,6 +1,6 @@
 ---
 import { type CollectionEntry, getCollection } from 'astro:content';
-import BlogPost from '../../layouts/BlogPost.astro';
+import NewsPost from '../../layouts/NewsPost.astro';
 import { render } from 'astro:content';
 
 const posts = (await getCollection('news2025')).sort(
@@ -12,6 +12,6 @@ const latestPost = posts[0];
 const { Content } = await render(latestPost);
 ---
 
-<BlogPost {...latestPost.data}>
+<NewsPost {...latestPost.data}>
 	<Content />
-</BlogPost>
+</NewsPost>
