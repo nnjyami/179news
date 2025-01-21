@@ -305,3 +305,10 @@ footer {
   width: 100%;
   font-style: italic;
 }
+.newsArticles > p img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+  margin: 0 1em;
+}
